@@ -1,0 +1,44 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: violet;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: violet;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(124, 27, 159);
+}
+
+.about {
+    cursor: default !important;
+    color: #fff !important;
+    background-color: #6C757D !important;
+    border-color: #6C757D !important;
+}
+
+i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+.picture {
+    box-shadow: 0px 0px 0px 3px white;
+    border-radius: 7px;
+}
+
+.fa-github-square:hover {
+    color: black;
+}
+
+.fa-linkedin-square:hover {
+    color: #0077b5;
+}
+
+.fa-instagram:hover {
+    color: #dd3151;
+}
